@@ -1,0 +1,74 @@
+body {
+        background-color: #f9e3e3; /* Màu nền */
+    
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-register {
+    width: 500px;
+    background-color: #fff; /* Màu nền của form */
+    padding: 20px;
+    border-radius: 10px; /* Bo tròn góc */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold; 
+    color: #ff6b6b; /* Màu tiêu đề */
+}
+.hoacDK{
+    text-align: center;
+    margin-top: 10px;
+   font-size: 15px;
+
+   font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #ff6b6b; /* Màu nút đăng ký */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff5252; /* Màu khi hover vào nút đăng ký */
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6b6b; /* Màu liên kết */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff5252; /* Màu khi hover vào liên kết */
+}

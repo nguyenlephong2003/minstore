@@ -1,0 +1,27 @@
+.sitemap {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sitemap ul {
+    padding-left: 20px;
+}
+
+.sitemap ul ul {
+    padding-left: 20px;
+}
+
+.sitemap a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sitemap a:hover {
+    color: #666;
+}
